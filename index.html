@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Easy List</title>
+  </head>
+  <body>
+    <h1>Easy List</h1>
+    <section class="card">
+      <input type="text" id="taskInput" placeholder="Activity description" />
+      <button type="button" id="buttonAddTask">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="1em"
+          height="1em"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M19 12.998h-6v6h-2v-6H5v-2h6v-6h2v6h6z"
+          />
+        </svg>
+      </button>
+    </section>
+
+    <section class="container" id="result">
+      <ul class="container__list" id="resultList"></ul>
+    </section>
+
+    <!-- scripts -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
